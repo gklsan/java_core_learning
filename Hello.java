@@ -16,7 +16,7 @@ class Hello {
         short sh = 128;
         System.out.println(sh);
 
-        long lo = 199999999312321321l;
+        long lo = 199999999312_321_321l;
         System.out.println(lo);
 
         float flo = 1.2f;
@@ -29,6 +29,12 @@ class Hello {
         System.out.println(d);
 
         boolean e = true;
-        System.out.println(e);        
+        System.out.println(e);      
+        
+        int int_f = by;
+        System.out.println(int_f);
+
+        int int_g = (int) flo;
+        System.out.println(int_g);
     }
 }
