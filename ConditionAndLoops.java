@@ -75,6 +75,27 @@ class ConditionAndLoops {
                 break;
             default:
                 System.out.println("Number not from 1 to 10");
-       }     
-    }    
+       }
+
+
+       int i = 0;
+
+       while(i < 5) {
+        System.out.println("Currently i'm in " + i);
+        i++;
+       }
+       
+       int j = 0;
+
+       do {
+        System.out.println("Currently i'm in " + j);
+        j++;
+       }while(j < 5);
+
+       System.out.println("------------------------------------------");
+
+       for(int a=0; a < 10; a++) {
+        System.out.println("Currently i'm in " + (a + 2));
+       }
+    }        
 }
